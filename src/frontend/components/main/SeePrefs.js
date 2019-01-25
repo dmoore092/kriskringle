@@ -34,7 +34,7 @@ export class SeePrefs extends Component {
             <form className="home-form"
                     id="form2"
                     method="post"
-                    action="http://www.polishcampout.com:80/backend/mysql.php"
+                    action="http://http://142.93.5.7:80/backend/mysql.php"
                     onSubmit={this.submit} >
                 <p className="spacer"><span className="preferences">I want to see..</span></p>
                 <select value={this.state.value} onChange={this.handleChange} name="name">
