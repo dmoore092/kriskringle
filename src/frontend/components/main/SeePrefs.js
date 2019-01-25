@@ -22,7 +22,7 @@ export class SeePrefs extends Component {
   }
   
   componentDidMount() {
-    fetch('https://localhost:8888/backend/mysql.php')
+    fetch('https://www.polishcampout.com:8888/backend/mysql.php')
       .then(response => response.json())
       .then(data => this.setState({ data }));
   }
@@ -34,7 +34,7 @@ export class SeePrefs extends Component {
             <form className="home-form"
                     id="form2"
                     method="post"
-                    action="http://localhost:8888/backend/mysql.php"
+                    action="http://www.polishcampout.com:8888/backend/mysql.php"
                     onSubmit={this.submit} >
                 <p className="spacer"><span className="preferences">I want to see..</span></p>
                 <select value={this.state.value} onChange={this.handleChange} name="name">

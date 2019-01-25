@@ -20,7 +20,7 @@ export class MyPrefs extends Component {
   render() {
     return (
       <div>
-        <form className="home-form" id="form1" method="POST" action="http://localhost:8888/backend/mysql.php">
+        <form className="home-form" id="form1" method="POST" action="http://www.polishcampout.com:8888/backend/mysql.php">
             <p className="spacer"><span className="preferences">I am..</span></p>
             <select value={this.state.value} onChange={this.handleChange} name ="name">
                     <option value="" ></option>

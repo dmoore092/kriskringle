@@ -4,7 +4,7 @@
 
     $db_host = "localhost";
     $db_user = "root";
-    $db_pass = "root";
+    $db_pass = "keyhole1";
     $db_name = "kriskringle";
 
     $mysqli = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
@@ -58,7 +58,7 @@
                         WHERE name = '".$_POST['name']."';";
             //echo $query;
             $result = mysqli_query($mysqli, $query);
-            header("Location: http://localhost:3000/Main/");
+            header("Location: http://www.polishcampout.com:3000/Main/");
             die();
 
             //$num_rows = mysqli_affected_rows($mysqli);
@@ -76,8 +76,8 @@
   </head>
   <body>
       <img src="../frontend/img/santa.png" id = "santa1">
-      <a href="http://localhost:3000/Main/"><p class="home-nav" id="back" >Back</p></a>
-      <a href="http://localhost:3000/"><span class="home-nav" id="home" >Home</span></a>
+      <a href="http://www.polishcampout.com:3000/Main/"><p class="home-nav" id="back" >Back</p></a>
+      <a href="http://www.polishcampout.com:3000/"><span class="home-nav" id="home" >Home</span></a>
       <img src="../frontend/img/frosty.png"/ id = "frosty">
       <h1 id="kk2019">Kris Kringle 2019</h1>
         <div class="login-wrapper">
