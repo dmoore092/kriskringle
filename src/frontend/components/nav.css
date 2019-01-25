@@ -1,0 +1,21 @@
+.home-nav{
+    background-color: white;
+    font-size: 1.2em;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 15px 25px;
+    position: absolute;
+    left: 38%;
+    top: 10px;
+
+}
+@media only screen and (min-width: 600px) {
+    .home-nav{
+        left: 45%;
+    }
+    .home-nav:hover{
+        background-color: green;
+        color: white;
+        border: 3px dotted red;
+    }
+}

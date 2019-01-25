@@ -1,0 +1,45 @@
+.pc{
+    width: 40%;
+    margin: auto;
+    margin-left: 34%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+.home-nav{
+    display: none;
+}
+.welcome{
+    /* margin: auto; */
+    margin-top: 80px;
+    font-size: 4rem;
+    text-align: center;
+    background-size: cover;
+    font-family: 'Lobster', cursive;
+    /* border: 2px solid black; */
+}
+.santa{
+    width: 55%;
+    margin-left: 23%;
+    margin-top: 3px;
+    /* border: 2px solid black; */
+}
+@media only screen and (min-width: 600px) {
+    body{
+        background-size: cover;
+    }
+    .welcome{
+        padding-top: 100px;
+        width: 23%;
+        margin: auto;
+        margin-left: 37%;
+        
+    } 
+    .santa{
+        width: 25%;
+        margin-left: 37%;
+    }
+    .pc{
+        margin-left: 43%;
+    }
+}

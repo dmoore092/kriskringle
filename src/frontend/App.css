@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Lobster', cursive;
+  line-height: 1.4;
+  /* background-image: url("https://orig00.deviantart.net/afcb/f/2016/094/1/4/snow_background_animation_by_s_k_y_f_r_e_e-d9tozjf.gif"); */
+  background: url("./img/christmas_wallpaper.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 10% 50%;
+}
+a{
+  color: #333;
+  text-decoration: none;
+}
+h1{
+  text-align: center;
+  font-size: 3rem;
+  /* border: 2px solid black; */
+}
+.login-btn{
+  padding: 10px;
+  width: 80%;
+  height: 50px;
+  font-size: 1.5em;
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+@media only screen and (min-width: 600px) {
+  body{
+      /* background-size: cover; */
+      background-position: initial;
+  }
+  .login-btn:hover{
+    background-color:green;
+    color: white;
+    border: 3px dotted red;
+  }
+  .login-btn{
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 19px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  body{
+    /* background-size: cover; */
+    /* background-position: 10% 30%;
+    background-size: 130% 130%; */
+}
+}

@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    font-size: 3rem;
+    /* border: 2px solid black; */
+}
+#santa1{
+    width: 20%;
+}
+#frosty{
+    float: right;
+    width: 20%;
+}
+.home-nav{
+    display: block;
+}
+#kk2019{
+    background-color: white;
+    border-radius: 25px;
+    width: 90%;
+    margin: auto;
+    border: 5px dotted red;
+}
+@media only screen and (min-width: 600px) {
+    #santa1{
+        width: 10%;
+    }
+    #frosty{
+        float: right;
+        width: 10%;
+    }
+    .home-nav{
+        left: 45%;
+    }
+    #kk2019{
+        width: 40%;
+        margin-bottom: 25px;
+    }
+}
